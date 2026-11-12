@@ -11,7 +11,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "bundle": "node scripts/bundle.mjs",
     "test": "vitest run",
     "test:bundle": "node scripts/smoke-bundle.mjs",
